@@ -34,5 +34,4 @@ class Guess:
         display_chars.append(self.half_guessed_char + gw_char)
       else:
         display_chars.append(self.wrong_char + gw_char)
-    print(len(display_chars))
     return "".join(display_chars)
