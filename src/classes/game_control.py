@@ -4,10 +4,10 @@ class GameControl:
   def __init__(self):
     self.is_initialized = False
   
-  def init(self):
+  def init(self, hidden_word: str):
     self.max_retry = 5
     self.retry_attempt = 0
-    self.hidden_word = "AAEAA".upper()
+    self.hidden_word = hidden_word.upper()
     self.is_guessed = False
     self.is_initialized = True
   
