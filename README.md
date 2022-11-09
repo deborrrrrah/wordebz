@@ -1,0 +1,2 @@
+# wordebz
+Mimic Wordle Game
