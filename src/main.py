@@ -1,11 +1,7 @@
-from classes.guess import Guess
+from classes.game_control import GameControl
 from colorama import reinit
 
 if __name__ == "__main__":
-  gs = [
-    Guess("ABCDE", "AAEAA"),
-    Guess("AABCD", "AAAAA")
-  ]
-  for g in gs:
-    reinit()
-    print(g)
+  gc = GameControl()
+  gc.init()
+  gc.run()

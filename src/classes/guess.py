@@ -1,10 +1,8 @@
 from typing import List
 from colorama import Fore, Back
 
-from .word import Word
-
 class Guess:
-  def __init__(self, guess_word: Word, hidden_word: Word):
+  def __init__(self, guess_word: str, hidden_word: str):
     self.guess_word = guess_word
     self.hidden_word = hidden_word
   
